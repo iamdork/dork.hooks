@@ -1,0 +1,7 @@
+---
+dependencies:
+- dork.shell
+
+dork:
+  matches:
+    default: true
