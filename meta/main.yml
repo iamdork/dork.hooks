@@ -1,6 +1,5 @@
----
 dependencies:
-- dork.shell
+- dork.ssh
 
 dork:
   matches:
