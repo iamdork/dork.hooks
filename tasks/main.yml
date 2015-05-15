@@ -4,12 +4,9 @@
   register: repo
 
 - name: install git hooks
-  sudo: yes
-  sudo_user: root
   copy:
     src: "{{ item }}.sh"
     dest: /var/source/.git/hooks/{{ item }}
-    owner: "{{ dork_user }}"
     mode: 0755
   with_items:
   - post-commit

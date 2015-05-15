@@ -1,6 +1,1 @@
-dependencies:
-- dork.ssh
-
-dork:
-  matches:
-    default: true
+dependencies: []
